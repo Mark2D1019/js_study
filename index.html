@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<title>Task Tool</title>
-	<meta charset="UTF-8" />
-</head>
-
-<body>
-	<div id="app">
-		<input>dddd</a>
-		<>
-	</div>
-
-
-	<div id="app"></div>
-	<div id="app"></div>
-
-
-</body>
-
+	<head>
+		<title>Task Tool</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<div class="input-area">
+			<input id="add-text" placeholder="TODOを入力"></a>
+			<button id="add-button">追加</button>
+		</div>
+		<div class="imcomplete-area">
+			<p  class="title">未完了のTODOです</p>
+			<ul id="imcomplete-list">
+				<div class="list-row">
+					<li>TODO1</li>
+					<button>完了</button>
+					<button>削除</button>
+				</div>
+				<div class="list-row">
+					<li>TODO1</li>
+					<button>完了</button>
+					<button>削除</button>
+				</div>
+			</ul>
+		</div>
+		<div class="complete-area">
+			<p class="title">完了したTODOです</p>
+			<ul id="complete-list">
+				<div class="list-row">
+					<li>TODO1</li>
+					<button>戻す</button>
+				</div>
+			</ul>
+		</div>
+	</body>
 </html>
